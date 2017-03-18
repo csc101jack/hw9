@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <title>CSC 101 HW9</title>
+  <h1>CSC 101 HW9 </h1>
+  <script src="homework9.js" defer></script>
+  <link href="homework9.css" rel="stylesheet" type="text/css"> 
+  <body id="body">
+
+<div id="carlistholder">
+    <h3>Inputted Locations</h3>
+    <ul id="loclist">
+    </ul>
+</div>
+<p><strong> *Coordinate locations will remain on page*</strong></p>
+
+    <div>
+  <div id="map" style="width: 750px; height: 500px;"></div>
+
+<script src="https://maps.google.com/maps/api/js?key=AIzaSyCJhdfAXNkhZUWxnXmq0ILTzIlSLEw-ZwU"></script>
+</div>
+<div id="controls">
+    <p>Location Input</p>
+    <label>LONGITUDE: </label><input type="text" id="long" /><br />
+    <label>LATTITUDE: </label><input type="text" id="lat" /><br />
+    <label>Location Name: </label><input type="text" id="loc" /><br />
+    
+    <button type="button" id="" onclick="addLocation();">Input Location</button>
+</div>
+  </body>
+
+    </html>
+
